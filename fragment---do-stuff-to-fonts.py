@@ -1,3 +1,5 @@
+from vanilla.dialogs import *
+
 inputFonts = getFile("select UFOs", allowsMultipleSelection=True, fileTypes=["ufo"])
 
 for fontPath in inputFonts:
